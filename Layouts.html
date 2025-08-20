@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content: center;
+            flex-direction: row;
+        }
+        .container>div {
+            background-color:rgb(170, 170, 232);
+            border: 1px solid #ccc;
+            padding:20px;
+            margin:10px;
+            text-align: center;
+            width:120px;
+            height:120px;
+        }
+        .container>div{
+            animation-name: example;
+            animation-duration: 9s;
+            animation-iteration-count: infinite;
+        }
+    @keyframes example{
+        from{background-color: rgb(213, 118, 210);}
+        to{background-color:rgba(92, 198, 163, 0.775);}
+    }
+    </style>
+</head>
+<body>
+   <h2>FlexBox</h2>
+   <div class="container">
+    <div>
+        <img src="Images/wallpaper.jpg" alt="wallpaper" style="width:120px; height:120px;">
+    </div>
+    <div>2</div>
+    <div>
+        <img src="Images/paintcolor.jpg" alt="paintcolor" style="width:120px; height:120px;">
+    </div>
+    <div>4</div>
+    <div>
+        <img src="Images/black textures.jpg" alt="blacktextures" style="width:120px; height:120px;">
+    </div>
+    <div>6</div>
+    <div>
+        <img src="Images/Eventplanner.png" alt="Eventplanner" style="width:120px; height:120px;">
+    </div>
+    <div>8</div>
+    <div>
+        <img src="Images/Eventplanner2.png" alt="Eventplanner2" style="width:120px; height:120px;">
+    </div>
+    <div>10</div>
+    <div>
+        <img src="Images/Nature.jfif" alt="Nature" style="width:120px; height:120px;">
+    </div>
+   </div>
+</body>
+</html>
